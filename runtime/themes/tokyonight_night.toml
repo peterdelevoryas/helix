@@ -1,0 +1,44 @@
+# License: Apache-2.0
+# Derived from folke/tokyonight.nvim extras/helix/tokyonight_night.toml.
+
+inherits = "tokyonight"
+
+"constant.builtin.boolean" = { fg = "orange" }
+"constant.numeric" = { fg = "orange" }
+"constant.numeric.float" = { fg = "orange" }
+"constant.numeric.integer" = { fg = "orange" }
+function = { fg = "blue" }
+"function.method" = { fg = "blue" }
+"keyword.control.conditional" = { fg = "magenta" }
+"keyword.control.exception" = { fg = "magenta" }
+"keyword.control.repeat" = { fg = "magenta" }
+"markup.bold" = { fg = "fg", modifiers = ["bold"] }
+"markup.italic" = { fg = "fg", modifiers = ["italic"] }
+"markup.link" = { fg = "teal" }
+"markup.link.label" = { fg = "aqua" }
+"markup.link.text" = { fg = "teal" }
+"markup.list" = { fg = "turquoise" }
+"markup.raw" = { fg = "light-green" }
+"diff.delta" = { bg = "#1f2231", fg = "change" }
+"diff.minus" = { bg = "#4a272f", fg = "delete" }
+"diff.plus" = { bg = "#243e4a", fg = "add" }
+"diagnostic.error" = { underline = { style = "curl" } }
+"diagnostic.warning" = { underline = { style = "curl" } }
+"diagnostic.info" = { underline = { style = "curl" } }
+"diagnostic.hint" = { underline = { style = "curl" } }
+"type.builtin" = { fg = "#27a1b9" }
+"type.enum" = { fg = "aqua" }
+"ui.bufferline.active" = { bg = "bg-visual", fg = "fg" }
+"ui.cursor" = { bg = "fg", fg = "bg" }
+"ui.linenr.selected" = { fg = "orange", modifiers = ["bold"] }
+"ui.menu.scroll" = { bg = "#1f1f29", fg = "fg-gutter" }
+"ui.selection" = { bg = "bg-highlight" }
+"ui.selection.primary" = { bg = "bg-highlight" }
+"ui.statusline.normal" = { bg = "blue", fg = "bg" }
+"ui.text" = { bg = "bg", fg = "fg" }
+"ui.text.focus" = { bg = "bg-visual" }
+"variable.parameter" = { fg = "yellow" }
+
+[palette]
+bg-highlight = "#292e42"
+bg-visual = "#283457"
