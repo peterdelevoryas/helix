@@ -1,0 +1,157 @@
+# Source palette mirrored from the Ghostty Vercel theme:
+# https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/ghostty/Vercel
+
+# Syntax
+"attribute" = "yellow"
+"comment" = { fg = "bright_black", modifiers = ["italic"] }
+"constant" = "cyan"
+"constant.builtin" = "bright_cyan"
+"constant.character" = "green"
+"constant.character.escape" = "bright_cyan"
+"constant.numeric" = "yellow"
+"constructor" = "bright_blue"
+"diff.delta" = "bright_blue"
+"diff.minus" = "bright_red"
+"diff.plus" = "bright_green"
+"function" = "blue"
+"function.builtin" = "bright_blue"
+"function.macro" = "magenta"
+"keyword" = "magenta"
+"keyword.control" = "magenta"
+"keyword.control.import" = "bright_magenta"
+"keyword.control.return" = "bright_magenta"
+"keyword.directive" = "bright_magenta"
+"label" = "bright_magenta"
+"module" = "yellow"
+"namespace" = "yellow"
+"operator" = "foreground"
+"punctuation" = "foreground_muted"
+"punctuation.bracket" = "foreground"
+"punctuation.delimiter" = "foreground"
+"special" = "bright_magenta"
+"string" = "green"
+"string.regexp" = "bright_green"
+"string.special" = "bright_cyan"
+"tag" = "yellow"
+"type" = "yellow"
+"type.builtin" = "bright_yellow"
+"type.enum.variant" = "bright_cyan"
+"variable" = "foreground"
+"variable.builtin" = "cyan"
+"variable.builtin.mutable" = { fg = "cyan", underline = { color = "cyan", style = "line" } }
+"variable.mutable" = { fg = "foreground", underline = { color = "foreground", style = "line" } }
+"variable.other.member" = "cyan"
+"variable.parameter" = { fg = "bright_white", modifiers = ["italic"] }
+"variable.parameter.mutable" = { fg = "bright_white", modifiers = ["italic"], underline = { color = "bright_white", style = "line" } }
+
+# Markup
+"markup.heading" = { fg = "blue", modifiers = ["bold"] }
+"markup.list" = "magenta"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "blue", modifiers = ["underlined"] }
+"markup.link.text" = "bright_blue"
+"markup.quote" = "bright_black"
+"markup.raw" = "bright_green"
+
+# UI
+"ui.background" = { fg = "foreground", bg = "background" }
+"ui.background.separator" = { fg = "border" }
+"ui.bufferline" = { fg = "foreground_muted", bg = "surface" }
+"ui.bufferline.active" = { fg = "bright_white", bg = "surface_high" }
+"ui.bufferline.background" = { bg = "background" }
+"ui.cursor" = { fg = "cursor_text", bg = "cursor" }
+"ui.cursor.insert" = { fg = "cursor_text", bg = "cursor" }
+"ui.cursor.match" = { bg = "surface_high", underline = { color = "cursor", style = "line" } }
+"ui.cursor.normal" = { fg = "cursor_text", bg = "cursor" }
+"ui.cursor.primary" = { fg = "cursor_text", bg = "cursor" }
+"ui.cursor.primary.insert" = { fg = "cursor_text", bg = "cursor" }
+"ui.cursor.primary.normal" = { fg = "cursor_text", bg = "cursor" }
+"ui.cursor.primary.select" = { fg = "cursor_text", bg = "cursor" }
+"ui.cursor.select" = { fg = "cursor_text", bg = "cursor" }
+"ui.cursorline.primary" = { bg = "surface" }
+"ui.debug.active" = { fg = "yellow" }
+"ui.debug.breakpoint" = { fg = "red" }
+"ui.gutter" = { bg = "background" }
+"ui.gutter.selected" = { bg = "surface" }
+"ui.help" = { fg = "foreground", bg = "surface" }
+"ui.highlight" = { bg = "surface_high" }
+"ui.highlight.frameline" = { bg = "surface_high" }
+"ui.linenr" = { fg = "foreground_subtle" }
+"ui.linenr.selected" = { fg = "bright_white" }
+"ui.menu" = { fg = "foreground", bg = "surface" }
+"ui.menu.scroll" = { fg = "bright_blue", bg = "surface_high" }
+"ui.menu.selected" = { fg = "bright_white", bg = "selection" }
+"ui.picker.header.column" = { fg = "foreground_muted", underline = { color = "foreground_muted", style = "line" } }
+"ui.picker.header.column.active" = { fg = "bright_white", underline = { color = "bright_blue", style = "line" } }
+"ui.popup" = { fg = "foreground", bg = "surface" }
+"ui.popup.info" = { fg = "foreground", bg = "surface_high" }
+"ui.selection" = { bg = "selection" }
+"ui.selection.primary" = { bg = "selection_strong" }
+"ui.statusline" = { fg = "bright_white", bg = "surface" }
+"ui.statusline.inactive" = { fg = "foreground_muted", bg = "surface" }
+"ui.statusline.insert" = { fg = "background", bg = "bright_blue" }
+"ui.statusline.normal" = { fg = "bright_white", bg = "magenta" }
+"ui.statusline.select" = { fg = "background", bg = "yellow" }
+"ui.text" = { fg = "foreground" }
+"ui.text.directory" = { fg = "blue" }
+"ui.text.focus" = { fg = "bright_white", bg = "surface_high" }
+"ui.text.inactive" = { fg = "foreground_subtle" }
+"ui.virtual" = { fg = "foreground_subtle" }
+"ui.virtual.indent-guide" = { fg = "surface_edge" }
+"ui.virtual.inlay-hint" = { fg = "foreground_muted", bg = "surface" }
+"ui.virtual.inlay-hint.parameter" = { fg = "yellow", bg = "surface" }
+"ui.virtual.inlay-hint.type" = { fg = "bright_blue", bg = "surface" }
+"ui.virtual.jump-label" = { fg = "yellow", modifiers = ["bold"] }
+"ui.virtual.ruler" = { bg = "surface" }
+"ui.virtual.whitespace" = { fg = "surface_edge" }
+"ui.virtual.wrap" = { fg = "surface_edge" }
+"ui.window" = { fg = "border" }
+
+# Diagnostics
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.info" = { underline = { color = "blue", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "cyan", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"error" = "red"
+"warning" = "yellow"
+"info" = "blue"
+"hint" = "cyan"
+
+rainbow = ["#ffae00", "#f32882", "#49aeff"]
+
+[palette]
+background = "#101010"
+surface = "#171717"
+surface_high = "#1f1f1f"
+surface_edge = "#313131"
+border = "#2a2a2a"
+
+foreground = "#fafafa"
+foreground_muted = "#a8a8a8"
+foreground_subtle = "#666666"
+cursor = "#f32882"
+cursor_text = "#fafafa"
+selection = "#005be7"
+selection_strong = "#006aff"
+
+black = "#000000"
+red = "#fc0036"
+green = "#29a948"
+yellow = "#ffae00"
+blue = "#006aff"
+magenta = "#f32882"
+cyan = "#00ac96"
+white = "#feffff"
+
+bright_black = "#a8a8a8"
+bright_red = "#ff8080"
+bright_green = "#4be15d"
+bright_yellow = "#ffae00"
+bright_blue = "#49aeff"
+bright_magenta = "#f97ea8"
+bright_cyan = "#00e4c4"
+bright_white = "#fefefe"

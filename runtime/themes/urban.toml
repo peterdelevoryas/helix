@@ -1,0 +1,150 @@
+# Author: OpenAI Codex
+# Palette matched to Ghostty's built-in Urban theme:
+# - /usr/share/ghostty/themes/urban
+# - /snap/ghostty/718/share/ghostty/themes/urban
+
+# Syntax
+"attribute" = "magenta"
+"comment" = { fg = "comment", modifiers = ["italic"] }
+"constant" = "yellow"
+"constant.builtin" = "magenta"
+"constant.builtin.boolean" = "magenta"
+"constant.character" = "yellow"
+"constant.character.escape" = "red"
+"constant.numeric" = "yellow"
+"constructor" = "blue"
+"function" = "green"
+"function.builtin" = "cyan"
+"function.macro" = "magenta"
+"function.method" = "green"
+"keyword" = { fg = "magenta", modifiers = ["bold"] }
+"keyword.control" = { fg = "magenta", modifiers = ["bold"] }
+"keyword.directive" = "red"
+"keyword.function" = { fg = "magenta", modifiers = ["bold"] }
+"keyword.operator" = "magenta"
+"keyword.storage" = { fg = "magenta", modifiers = ["bold"] }
+"label" = "blue"
+"namespace" = "cyan"
+"operator" = "text"
+"punctuation" = "text"
+"punctuation.bracket" = "text"
+"punctuation.delimiter" = "text"
+"special" = "red"
+"string" = "green"
+"string.regexp" = "red"
+"string.special.path" = "blue"
+"string.special.symbol" = "magenta"
+"string.special.url" = { fg = "blue", modifiers = ["underlined"] }
+"tag" = { fg = "red", modifiers = ["bold"] }
+"type" = "blue"
+"type.builtin" = "cyan"
+"type.enum.variant" = "yellow"
+"variable" = "text"
+"variable.builtin" = "red"
+"variable.other.member" = "text"
+"variable.parameter" = "text"
+
+# Markup
+"markup.bold" = { fg = "text", modifiers = ["bold"] }
+"markup.heading" = { fg = "blue", modifiers = ["bold"] }
+"markup.italic" = { fg = "text", modifiers = ["italic"] }
+"markup.link.label" = "blue"
+"markup.link.text" = "blue"
+"markup.link.url" = { fg = "blue", modifiers = ["underlined"] }
+"markup.list" = "yellow"
+"markup.quote" = "comment"
+"markup.raw" = "green"
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+
+# Diff
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "yellow"
+"diff.plus.gutter" = "green"
+"diff.minus.gutter" = "red"
+"diff.delta.gutter" = "yellow"
+
+# UI
+"ui.background" = { bg = "bg" }
+"ui.background.separator" = { fg = "border" }
+"ui.bufferline" = { fg = "text_muted", bg = "panel" }
+"ui.bufferline.active" = { fg = "text", bg = "line" }
+"ui.bufferline.background" = { bg = "bg" }
+"ui.cursor" = { fg = "cursor", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "cursor", modifiers = ["reversed"] }
+"ui.cursor.match" = { bg = "match_bg", underline = { color = "yellow", style = "line" } }
+"ui.cursorline.primary" = { bg = "line" }
+"ui.cursorline.secondary" = { bg = "line" }
+"ui.gutter" = { bg = "bg" }
+"ui.gutter.selected" = { bg = "line" }
+"ui.help" = { fg = "text", bg = "panel" }
+"ui.highlight" = { bg = "line" }
+"ui.linenr" = { fg = "text_subtle" }
+"ui.linenr.selected" = { fg = "text" }
+"ui.menu" = { fg = "text", bg = "panel" }
+"ui.menu.scroll" = { fg = "text_subtle", bg = "panel" }
+"ui.menu.selected" = { fg = "selection_fg", bg = "selection_bg" }
+"ui.popup" = { fg = "text", bg = "panel" }
+"ui.popup.info" = { fg = "blue", bg = "panel" }
+"ui.selection" = { fg = "selection_fg", bg = "selection_bg" }
+"ui.selection.primary" = { fg = "selection_fg", bg = "selection_bg" }
+"ui.statusline" = { fg = "text_muted", bg = "panel" }
+"ui.statusline.inactive" = { fg = "text_subtle", bg = "panel" }
+"ui.statusline.normal" = { fg = "text", bg = "blue" }
+"ui.statusline.insert" = { fg = "bg", bg = "green" }
+"ui.statusline.select" = { fg = "text", bg = "magenta" }
+"ui.statusline.separator" = { fg = "border" }
+"ui.text" = { fg = "text" }
+"ui.text.directory" = { fg = "blue" }
+"ui.text.focus" = { fg = "text" }
+"ui.text.inactive" = { fg = "text_muted" }
+"ui.text.info" = { fg = "blue" }
+"ui.virtual.indent-guide" = { fg = "panel_alt" }
+"ui.virtual.inlay-hint" = { fg = "comment" }
+"ui.virtual.inlay-hint.parameter" = { fg = "text_muted" }
+"ui.virtual.inlay-hint.type" = { fg = "blue" }
+"ui.virtual.jump-label" = { fg = "yellow", modifiers = ["bold"] }
+"ui.virtual.ruler" = { bg = "line" }
+"ui.virtual.whitespace" = { fg = "border" }
+"ui.virtual.wrap" = { fg = "border" }
+"ui.window" = { fg = "border" }
+
+# Diagnostics
+"warning" = { fg = "yellow" }
+"error" = { fg = "red" }
+"info" = { fg = "blue" }
+"hint" = { fg = "cyan" }
+"diagnostic.hint" = { underline = { color = "cyan", style = "curl" } }
+"diagnostic.info" = { underline = { color = "blue", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+"tabstop" = { bg = "line" }
+
+rainbow = ["blue", "yellow", "magenta"]
+
+[palette]
+bg = "#312e39"
+panel = "#33303b"
+panel_alt = "#373340"
+line = "#3b3744"
+border = "#5c5865"
+
+text = "#c0a79a"
+text_muted = "#a79389"
+text_subtle = "#837b82"
+comment = "#7d7580"
+cursor = "#c0a79a"
+
+selection_bg = "#c0a79a"
+selection_fg = "#312e39"
+match_bg = "#4a4654"
+
+red = "#87404f"
+green = "#74934e"
+yellow = "#ae835a"
+blue = "#615772"
+magenta = "#854b64"
+cyan = "#625464"
